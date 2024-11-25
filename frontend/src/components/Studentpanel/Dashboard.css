@@ -1,0 +1,97 @@
+/* Dashboard.css */
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.navigation {
+  background-color: #28283e;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+.navigation .logo {
+  flex-grow: 1;
+  text-align: center;
+}
+.navigation .logo a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+ justify-content: center;
+}
+
+.navigation ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation ul li {
+  margin-left: 20px;
+}
+
+.navigation ul li a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.navigation ul li a i {
+  margin-right: 5px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.upcoming-exams,
+.ongoing-exams {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.exam-card {
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.exam-card h3 {
+  margin-top: 0;
+}
+
+.exam-card p {
+  margin-bottom: 10px;
+}
+
+.exam-card button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.exam-card button:hover {
+  background-color: #0056b3;
+}
+
+.exam-card button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

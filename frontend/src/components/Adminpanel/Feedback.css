@@ -1,0 +1,44 @@
+.feedback-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.feedback-container h2 {
+  margin-bottom: 20px;
+}
+
+.feedback-container textarea {
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  resize: none;
+}
+
+.feedback-container button {
+  display: block;
+  width: 10%;
+  padding: 10px;
+  background-color: #cccccc89;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.feedback-container button:hover {
+  background-color: black;
+  transition: 1s;
+  color: white;
+}
+
+/* Media Query for adjusting textarea and button width */
+@media screen and (max-width: 900px) {
+  .feedback-container textarea,
+  .feedback-container button {
+    width: 100%;
+  }
+}

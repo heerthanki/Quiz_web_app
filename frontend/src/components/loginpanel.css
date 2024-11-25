@@ -1,0 +1,54 @@
+.login-panel {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    margin-top:120px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.login-panel h2 {
+    margin-bottom: 20px;
+}
+
+.login-panel label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.login-panel input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: auto;
+}
+
+.login-panel button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.login-panel button:hover {
+    background-color: #0056b3;
+}
+
+.login-panel .error {
+    color: red;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .login-panel {
+        max-width: 90%;
+    }
+}
